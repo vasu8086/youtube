@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Youtube</title>
+    <link rel="stylesheet" href="E:/html/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="E:/html/bootstrap/css/mdb.css">
+    <link rel="stylesheet" type="text/css" href="E:\html\fontawesome-free-6.4.2-web\fontawesome-free-6.4.2-web\css\all.css">
+    <style>
+    	body{
+             
+    	}
+        #navbar {
+            margin-top: 6px;
+            margin-left: 10px;
+            font-size: 18px;
+            
+        }
+        #input{
+            padding: 8px;
+            border: solid 1px rgba(19,21,66,0.5);
+            border-radius: 20px 0px 0px 20px;
+            margin-right: -5px;
+            font-size: 14px;
+            width: 520px;
+        }
+        #Search {
+            padding: 8px;
+            border: solid 1px rgba(19,21,66,0.5);
+            border-radius: 0px 20px 20px 0px; 
+            background-color: rgb(225, 225, 225);  
+            font-size: 14px;  
+            margin-top: 3px;
+            width: 50px;
+        }
+        #voicesearch {
+            
+            padding: 9px;
+            width: 40px;
+            height: 40px;
+            border-color: black;
+            border: solid 1px white;
+            border-radius: 100%;
+            text-align: center;
+            display: inline-block; 
+            margin-top: 3px;
+            background-color: rgb(225, 225, 225);
+        }
+        #fa-bars{
+        	
+        	font-size: 20px;
+            margin-left: 20px;
+            padding: 9px;
+            width: 40px;
+            height: 40px;
+            border-color: black;
+            border: solid 1px white;
+            border-radius: 100%;
+            text-align: center;
+            display: inline-block; 
+            margin-top: 3px;
+            background-color: white;
+        }
+        #fa-youtube{
+        	font-size: 28px;
+            color: rgb(255,1,1);
+            margin-left: 10px;
+
+        }
+       #fa-youtubee 
+ {
+    font-family: "Roboto", Arial;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -2px;
+
+    
+}
+sup{
+    font-weight: normal;
+    letter-spacing: 0px;
+    margin-left: 4px;
+    font-size: 14px;
+}
+
+
+
+        #voicesearchh
+        {
+            font-size: 20px;
+            margin-left: 20px;
+            padding: 9px;
+            width: 40px;
+            height: 40px;
+            border-color: black;
+            border: solid 1px white;
+            border-radius: 100%;
+            text-align: center;
+            display: inline-block; 
+            margin-top: 3px;
+            background-color: white;
+
+        }
+        #voicesearchhh
+        {
+            padding: 8px;
+            width: 35px;
+            height: 35px;
+            border-color: black;
+            border: solid 1px black;
+            border-radius: 100%;
+            text-align: center;
+            display: inline-block; 
+            margin-top: 3px;
+            background-color: red;
+            color: white;
+            margin-right: 30px;
+        }
+        #fa-microphone
+        {
+            display: flex;
+            justify-content: center;
+        }
+        #voicesearchhh
+        {
+            color: white;
+            padding: 9px;
+            width: 35px;
+            height: 35px;
+            border: solid 2px white;
+            border-radius: 100%;
+            text-align: center;
+            display: inline-block; 
+            margin-top: 3px;
+            background-color: rgb(255,1,1);
+            margin-top: 0px;
+        }
+        #Sear
+        {
+            display: inline-block;
+            margin-left: 241px;
+        }
+        #end
+        {
+            float: right;
+            margin-right: 20px;
+        }
+        #fa-bars:hover
+        {
+            color: rgba(19,21,66,0.5);
+            font-size: 20px;
+            margin-left: 20px;
+            padding: 9px;
+            width: 40px;
+            height: 40px;
+            border-color: black;
+            border: solid 1px white;
+            border-radius: 100%;
+            text-align: center;
+            display: inline-block; 
+            margin-top: 3px;
+            background-color: rgb(225, 225, 225);
+        }
+        a
+        {
+             color: black;
+        }
+        #fa-barss
+        {
+          color: rgba(9,9,10,0.5);
+        }
+         #voicesearch:hover{
+            
+            padding: 9px;
+            width: 43px;
+            height: 43px;
+            color: black;
+            border: solid 1px white;
+            border-radius: 100%;
+            text-align: center;
+            display: inline-block; 
+            margin-top: 3px;
+            background-color: rgb(225, 225, 225);
+        }
+        a:hover
+        {
+            color: black;
+        }
+        #voicesearchh:hover
+        {
+            font-size: 20px;
+            margin-left: 20px;
+            padding: 9px;
+            width: 42px;
+            height: 42px;
+            
+            border: solid 1px white;
+            border-radius: 100%;
+            text-align: center;
+            display: inline-block; 
+            margin-top: 3px;
+            background-color: rgb(225, 225, 225);
+
+        }
+       
+        span
+        {
+            margin-right: 20px;
+        }
+        .voice{
+            margin-right: 35px;
+        }
+        .in {
+  font-size: 18px; 
+  font-weight: bold; 
+  color: red; 
+}
+
+    </style>
+</head>
+<body>
+     <div id="navbar">
+         <a href="" id="fa-barss"><i class="fa-solid fa-bars" id="fa-bars"></i></a>
+         <a href=""><i class="fa-brands fa-youtube " id="fa-youtube"></i></a>
+         <a href=""><span id="fa-youtubee">YouTube<sup>IN</sup></span></a>
+         <div id="Sear">
+             <input id="input" type="text" placeholder="Search">
+             <button id="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+         </div>
+         <div id="voicesearch" class=""><a href=""><i class="fa-solid fa-microphone-lines" id="fa-microphone"></i></a></div>
+          <div id="end"> 
+            <span class="voice">
+         <div id="voicesearchh" class="end"><a href=""><i class="fa-solid fa-video" id="video"></i></a></div> 
+         <div id="voicesearchh" class="end"><a href=""><i class="fa-solid fa-bell" id="video"></i></a></div>
+           </span>
+         <div id="voicesearchhh"><a href=""><i class="fa-solid fa-s" id="fa-microphone"></i></a></div>
+         </div>
+     </div>
+</body>
+</html>
